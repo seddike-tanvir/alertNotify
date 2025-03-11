@@ -1,0 +1,46 @@
+
+
+
+
+
+
+	| [1] Include JS
+	|	*include the script -->
+	|		<script src="alertNotify/alertNotify.js"></script>
+
+	_
+
+	| [2] Include CSS
+	|	*include a theme -->
+	|		<link rel="stylesheet" href="alertNotify/theme/defaultTheme.css" />
+
+	_
+
+	| [3] Start coding!
+	|		alertNotify('Your message here', 'type', duration);
+
+
+
+	_
+
+	| ### Customization
+	| 	        alertNotify('Your message here', 'type', duration);
+	|        			
+	| 			 ---->	* here "Type" can be:- 
+	|                                 	success,
+	|                                		error,
+	|                                 	warning,
+	|                                 	info (default)
+	| 
+	|                 		* Duration is in milliseconds (ms):- 
+	|                                  	3000  (default)
+	| 
+	| 
+	| 
+	| 	*** Example -
+	|             showAlert('Success message', 'success', 3000);
+	|             showAlert('Error message', 'error', 3000);
+	|             showAlert('Warning message', 'warning', 3000);
+	|             showAlert('Info message', 'info', 3000);
+	| 
+	
