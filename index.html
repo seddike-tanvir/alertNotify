@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alertNotify.js</title>
+    <link rel="shortcut icon" href="--assets/alertNotify.png" type="image/x-icon">
+
+    <!-- Highlight.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="--assets/style.css">
+    
+    <!-- alertNotify.js CSS -->
+    <link rel="stylesheet" href="alertNotify/theme/revisedDefaultTheme.css">
+</head>
+<body>
+    <section class="navbar">
+        <p class="nav_header"><a href="https://alertnotify.pages.dev/">alertNotify.js</a></p>
+    </section>
+
+    <section class="container">
+        <div class="semi_container" id="semi_container_01">
+            <p class="semi_container_header">🔗 Installation part of "alertNotify"</p>
+            <hr>
+            <div class="para">
+                <p class="para_header"><strong>[1] Include JS  </strong></p>
+                <pre>
+                    <code class="html">&lt;script src="https://alertnotify.pages.dev/alertNotify/alertNotify.js"&gt;&lt;/script&gt;</code>
+                    <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
+                </pre>
+            </div>
+            <div class="para">
+                <p class="para_header"><strong>[2] Include a CSS theme </strong></p>
+                <pre>
+                    <code class="html">&lt;link rel="stylesheet" href="https://alertnotify.pages.dev/alertNotify/theme/defaultTheme.css"/&gt;</code>
+                    <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
+                </pre>
+                <p class="tika_1">💡 &nbsp;Can choose another theme from <a href="theme_list/">"Themes List"</a></p>
+            </div>
+            <div class="para">
+                <p class="para_header"><strong>[3] Start coding!</strong></p>
+                <pre>
+                    <code class="javascript">alertNotify('Your message here', 'type', duration);</code>
+                    <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
+                </pre>
+            </div>
+        </div>
+
+
+
+        <div class="semi_container">
+            <p class="semi_container_header">🛠 &nbsp;Customization</p>
+            <hr>
+            <div class="para_2">
+                <pre class="pre_line"><code>alertNotify('Your message here', 'type', duration);</code></pre>
+                <div class="para_2_sub">
+                    <p class="para_2_sub_header"><strong>[1] Type </strong></p>
+                    <p class="para_2_sub_text">Here default value of "Type" is &nbsp;<code class="hilighter_pre">info</code>&nbsp;; 
+                        <br>
+                        another possible value -    <code class="hilighter_pre">success</code> , &nbsp;
+                                                    <code class="hilighter_pre">error</code> , &nbsp;
+                                                    <code class="hilighter_pre">warning</code> , &nbsp;
+                    </p>
+                </div>
+
+                <div class="para_2_sub">
+                    <p class="para_2_sub_header"><strong>[2] Duration </strong></p>
+                    <p class="para_2_sub_text">Here the value of "duration" must be in "millisecond" &nbsp; like &nbsp;<code class="hilighter_pre">1000</code>&nbsp;; 
+                    </p>
+                </div>
+                
+                <div class="para_2_sub">
+                    <p class="para_2_sub_header" id="example"><strong>* * * Example </strong></p>
+                    <br>
+                            <pre><code>alertNotify('Success message', 'success', 3000);</code>
+                            <pre><code>alertNotify('Error message', 'error', 3000);</code>
+                            <pre><code>alertNotify('Warning message', 'warning', 3000);</code>
+                            <pre><code>alertNotify('Info message', 'info', 3000);</code>  
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="footer">
+        <p class="p2" >&copy; <span>2025</span> alertNotify.js ; All right reserved</p>
+        <p class="f_3" ><a>Report an issue</a>    <span class="devider">|</span>    <a href="https://github.com/seddike-tanvir/alertNotify">View on github</a>    <span class="devider">|</span>    <a>Give Feedback</a></p> 
+        <p class="f_3" >Created by <a href="tanvirseddike.web.app">Seddike Tanvir</a>    <span class="devider">|</span>    Licensed under <a href="https://opensource.org/licenses/gpl-3.0">GPLv3</a></p> 
+    </section>
+
+
+
+    <!-- Highlight.js JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="--assets/script.js"></script>
+
+    <!-- alertNotify.js JS -->
+    <script src="alertNotify/alertNotify.js"></script>
+</body>
+</html>
