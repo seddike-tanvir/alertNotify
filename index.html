@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alertNotify.js</title>
+    <link rel="stylesheet" href="--assets/fonts.css">
     <link rel="shortcut icon" href="--assets/alertNotify.png" type="image/x-icon">
 
     <!-- Highlight.js CSS -->
@@ -20,13 +21,26 @@
 </head>
 <body>
     <section class="navbar">
-        <p class="nav_header"><a href="https://alertnotify.pages.dev/">alertNotify.js</a></p>
+        <p class="nav_header"><a href="https://alertnotify.pages.dev/">alertNotify<span>JS</span></a></p>
     </section>
 
     <section class="container">
-        <div class="semi_container" id="semi_container_01">
-            <p class="semi_container_header">🔗 Installation part of "alertNotify"</p>
-            <hr>
+        <div class="semi_container" id="banner_area">
+            <p class="banner_header"><img src="--assets/alertNotify.png" alt="">alertNotify<span>JS</span></p>
+            <p class="banner_txt"><span>alertNotifyJS</span> is a javascript framework for developing simple browser alerts.</p>
+            <div class="banner_btn_holder">
+                <a href="#semi_container_02"><button class="banner_btn_1">Get alertotify <i class="fa fa-angle-double-down" aria-hidden="true"></i></button></a>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="semi_container" id="semi_container_02">
+            <p class="semi_container_header">🔗 Easy installation process ~</p>
+            <hr class="hr_1">
             <div class="para">
                 <p class="para_header"><strong>[1] Include JS  </strong></p>
                 <pre>
@@ -49,13 +63,14 @@
                     <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
                 </pre>
             </div>
+            <!-- <div class="hr_2_wraper"><hr class="hr_2"><hr class="hr_2"><hr class="hr_2"></div> -->
         </div>
 
 
 
-        <div class="semi_container">
-            <p class="semi_container_header">🛠 &nbsp;Customization</p>
-            <hr>
+        <div class="semi_container" id="semi_container_03">
+            <p class="semi_container_header">🛠 &nbsp;Customization ~</p>
+            <hr class="hr_1">
             <div class="para_2">
                 <pre class="pre_line"><code>alertNotify('Your message here', 'type', duration);</code></pre>
                 <div class="para_2_sub">
@@ -84,15 +99,20 @@
                     </p>
                 </div>
             </div>
+            <!-- <div class="hr_2_wraper"><hr class="hr_2"><hr class="hr_2"><hr class="hr_2"></div> -->
         </div>
         
     </section>
 
     <section class="footer">
-        <p class="p2" >&copy; <span>2025</span> alertNotify.js ; All right reserved</p>
+        <p class="p2" >&copy; <span>2025</span> alertNotifyJS ; All right reserved</p>
         <p class="f_3" ><a>Report an issue</a>    <span class="devider">|</span>    <a href="https://github.com/seddike-tanvir/alertNotify">View on github</a>    <span class="devider">|</span>    <a>Give Feedback</a></p> 
         <p class="f_3" >Created by <a href="https://tanvirseddike.web.app">Seddike Tanvir</a>    <span class="devider">|</span>    Licensed under <a href="https://opensource.org/licenses/gpl-3.0">GPLv3</a></p> 
     </section>
+
+
+
+
 
 
 
@@ -106,3 +126,6 @@
     <script src="alertNotify/alertNotify.js"></script>
 </body>
 </html>
+
+
+

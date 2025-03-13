@@ -7,39 +7,55 @@
 html{
     background-color: rgba(227, 237, 253, 0.041);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Poppins;
 }
 
 .navbar{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: #efefef;
     top: 0;
     width: 100%;
     height: max-content;
     border-bottom: 1px solid #00000023;
     z-index: 1;
+    cursor: grab;
 }
 .nav_header{
     text-align: left;
-    margin: .5rem 2rem;
+    margin: .7rem 2rem;
     margin-left: 5vw;
-    font-size: 2.2rem; 
-    font-weight: 700;
-}
-.nav_header >span{
-    text-align: left;
-    /* margin-left: 5vw; */
-    font-size: 1.5rem; 
-    font-weight: 700;
+    font-size: 2.1rem; 
+    font-weight: 900;
 }
 .nav_header > a{
     text-decoration: none;
     color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+.nav_header > a > span{
+    font-size: 2.6rem; 
+    font-weight: 100;
+    padding-left: .25rem;
+    color: #00b100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.nav_header > a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+
+}
+.nav_header > .nav_header_part2{
+    text-align: left;
+    /* margin-left: 5vw; */
+    font-size: 1.5rem; 
+    font-weight: 700;
 }
 .sitemap_navigator{
     margin: 0 auto;
@@ -51,6 +67,7 @@ body {
 }
 .sitemap_navigator > .mapLine > a{
     color: #0351f8;
+    font-size: .85rem;
     font-weight: bold;
     transition: .3s;
 }
@@ -75,24 +92,31 @@ body {
 .semi_container_header{
     text-align: left; 
     font-weight: 900;
-    font-size: 1.7rem; 
+    font-size: 1.3rem; 
     font-weight: 700;
     margin-top: .5rem;
     margin-bottom: .8rem;
     padding-left: 3vw;
     color: #000000de;
 }
+.semi_container > .hr_1{
+    height: 3px;
+    /* color: #000000; */
+    background-color: #000000;
+}
 .para{
     margin: 5% 5%;
     /* margin-top: 5vh; */
     /* margin-bottom: 0vh; */
+    border-left: 3px solid #0000008e;
+    padding: 2% 3%;
 
 }
 
 .para_header{
     text-align: left; 
     font-size: .9rem; 
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 1vh;
 }
 
@@ -149,6 +173,11 @@ body {
 .pre_line > code{
     font-size: 1rem;
 } 
+.hr_2{
+    width: 85%;
+    margin: 0 auto;
+    display: none;
+}
 
 
 
