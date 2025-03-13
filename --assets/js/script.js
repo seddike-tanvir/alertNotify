@@ -1,3 +1,4 @@
+
 // Wait for the DOM to load
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize Highlight.js

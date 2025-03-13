@@ -1,3 +1,7 @@
+:root{
+    --bg_color_1: #efefef;;
+
+}
 * {
     /* user-select: none; */
     padding: 0;
@@ -18,7 +22,7 @@ body {
 .navbar{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: fixed;
-    background-color: #efefef;
+    background-color: var(--bg_color_1);
     top: 0;
     width: 100%;
     height: max-content;
@@ -50,17 +54,17 @@ body {
     /* width: 100vw; */
     max-width: 69rem;
     margin: auto;
-    margin-top: 24rem;
-    margin-top: 80vh;
+    /* margin-top: 24rem; */
+    margin-top: 100vh;
     /* padding: 5vw; */
-    background-color: #efefef;
+    background-color: var(--bg_color_1);
     /* background-color: #ff0000; */
     padding-bottom: 30vh;
 }
 .semi_container{
     margin: 5vh 3vw;
     padding: 2vh 0rem 1vh;
-    background-color: #efefef;
+    background-color: var(--bg_color_1);
     border-radius: 8px;
 }
 .hr_2_wraper{
@@ -76,8 +80,8 @@ body {
     background-color: #efefef00;
     position: fixed;
     top: 6rem;
-    top: 45%;
-    transform: translateY(-70%);
+    top: 50%;
+    transform: translateY(-65%);
     right: 0;
     left: 0;
     z-index: -1;
@@ -131,7 +135,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     transition: .3s ease-in-out;
-
+    cursor: pointer;
 }
 .banner_btn_1 > i{
     padding-left: .3rem;
@@ -301,7 +305,7 @@ body {
     border-top:  1px solid #00000023;
     /* height: 5rem; */
     padding: 2vh 0;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px -2px 50px 0px inset;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px -2px 50px 0px inset; */
 }
 .footer > p{
     text-align: center;

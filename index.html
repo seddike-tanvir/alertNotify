@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alertNotify.js</title>
-    <link rel="stylesheet" href="--assets/fonts.css">
-    <link rel="shortcut icon" href="--assets/alertNotify.png" type="image/x-icon">
+    <link rel="shortcut icon" href="--assets/file/alertNotify.png" type="image/x-icon">
+    <link rel="stylesheet" href="--assets/css/fonts.css">
+    <link rel="stylesheet" href="--assets/css/scrollToTopBtn.css">
+    <link rel="stylesheet" href="--assets/css/preloader.css">
 
     <!-- Highlight.js CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
@@ -14,19 +16,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="--assets/style.css">
+    <link rel="stylesheet" href="--assets/css/style.css">
     
     <!-- alertNotify.js CSS -->
     <link rel="stylesheet" href="alertNotify/theme/revisedDefaultTheme.css">
 </head>
 <body>
+  <!-- Preloader -->
+  <div class="preloader"></div> 
+
     <section class="navbar">
         <p class="nav_header"><a href="https://alertnotify.pages.dev/">alertNotify<span>JS</span></a></p>
     </section>
 
     <section class="container">
         <div class="semi_container" id="banner_area">
-            <p class="banner_header"><img src="--assets/alertNotify.png" alt="">alertNotify<span>JS</span></p>
+            <p class="banner_header"><img src="--assets/file/alertNotify.png" alt="">alertNotify<span>JS</span></p>
             <p class="banner_txt"><span>alertNotifyJS</span> is a javascript framework for developing simple browser alerts.</p>
             <div class="banner_btn_holder">
                 <a href="#semi_container_02"><button class="banner_btn_1">Get alertotify <i class="fa fa-angle-double-down" aria-hidden="true"></i></button></a>
@@ -113,17 +118,28 @@
 
 
 
+<button onclick="topFunction()" id="myBtn" title="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
 
 
 
-    <!-- Highlight.js JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
-    <!-- Custom JS -->
-    <script src="--assets/script.js"></script>
 
-    <!-- alertNotify.js JS -->
-    <script src="alertNotify/alertNotify.js"></script>
+
+
+<!-- preloader JS -->
+<script src="--assets/js/preloader.js"></script>
+<!-- Custom JS -->
+<script src="--assets/js/script.js"></script>
+<!-- Highlight.js JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<!-- alertNotify.js JS -->
+<script src="alertNotify/alertNotify.js"></script>
+<!-- scrollToTop function JS -->
+<script src="--assets/js/scrollToTopBtn.js"></script>
+
+
+
+
 </body>
 </html>
 
