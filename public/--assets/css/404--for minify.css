@@ -1,13 +1,13 @@
 :root{
     --bg_color_1: #efefef;;
-
 }
+
 * {
     /* user-select: none; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins;
 }
 html{
     background-color: rgba(227, 237, 253, 0.041);
@@ -17,42 +17,41 @@ html{
 body {
     margin: 0;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-family: Poppins;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .navbar{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    position: fixed;
-    background-color: var(--bg_color_1);
-    top: 0;
-    width: 100%;
-    height: max-content;
-    border-bottom: 1px solid #00000023;
-    z-index: 1;
-    cursor: grab;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: fixed;
+  background-color: var(--bg_color_1);
+  top: 0;
+  width: 100%;
+  height: max-content;
+  border-bottom: 1px solid #00000023;
+  z-index: 1;
+  cursor: grab;
 }
 .nav_header{
-    text-align: left;
-    margin: .7rem 2rem;
-    margin-left: 5vw;
-    font-size: 2.1rem; 
-    font-weight: 900;
+  text-align: left;
+  margin: .7rem 2rem;
+  margin-left: 5vw;
+  font-size: 2.1rem; 
+  font-weight: 900;
 }
 .nav_header > a{
-    text-decoration: none;
-    color: rgb(20, 20, 20);
-    
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  
 }
 .nav_header > a > span{
-    font-size: 2.6rem; 
-    font-weight: 100;
-    padding-left: .25rem;
-    color: #00b100;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-size: 2.6rem; 
+  font-weight: 100;
+  padding-left: .25rem;
+  color: #00b100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -60,23 +59,6 @@ body {
 
 
 
-
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  .logo h1 {
-    font-size: 2rem;
-    color: #2c3e50;
-  }
-  
   .container {
     flex: 1;
     display: flex;

@@ -1,4 +1,6 @@
-/* alert.css - Styles for the alert system */
+/* defaultTheme.css  --->  Default Styles for the alert system */
+
+
 #alert-container {
     position: fixed;
     bottom: 10vh;
