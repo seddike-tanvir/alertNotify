@@ -67,6 +67,7 @@ body {
     padding: 2vh 0rem 1vh;
     background-color: var(--bg_color_1);
     border-radius: 8px;
+
 }
 .hr_2_wraper{
     margin-top: 15vh;
@@ -78,7 +79,8 @@ body {
     /* display: inline-block; */
 }
 #banner_area{
-    background-color: #efefef00;
+    /* background-color: #efefef00; */
+    background-color: var(--bg_color_1);
     position: fixed;
     top: 6rem;
     top: 50%;
